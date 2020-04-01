@@ -8,5 +8,5 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --entry-point=dniverification
-  - --allow-unauthenticated
-  - --region=europe-west1
+  - --allow-unauthenticated=true
+  - --region=europe-west3
