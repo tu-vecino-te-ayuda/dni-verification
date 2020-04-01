@@ -9,3 +9,4 @@ steps:
   - --runtime=python37
   - --entry-point=dniverification
   - --allow-unauthenticated
+  - --region=europe-west1
