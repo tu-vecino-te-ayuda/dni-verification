@@ -6,4 +6,6 @@ steps:
   - dniverification
   - --source=.
   - --trigger-http
-  - --runtime python37
+  - --runtime=python37
+  - --entry-point dniverification
+  - --allow-unauthenticated
