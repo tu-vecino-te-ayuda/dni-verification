@@ -4,9 +4,12 @@ steps:
   - functions
   - deploy
   - dniverification
+  - --allow-unauthenticated
   - --source=.
   - --trigger-http
   - --runtime=python37
   - --entry-point=dniverification
-  - --allow-unauthenticated=true
   - --region=europe-west3
+  - --max-instances=1
+  - --timeout=90
+  - --memory=128
