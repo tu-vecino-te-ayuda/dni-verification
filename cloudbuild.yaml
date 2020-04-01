@@ -7,5 +7,5 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=python37
-  - --entry-point dniverification
+  - --entry-point=dniverification
   - --allow-unauthenticated
