@@ -8,6 +8,8 @@ def dniverification(request):
     if request_json and 'img' in request_json:
         data = document_ocr(request_json['img'])
         print('----------------')
+        print(request_json['name'])
+        print(request_json['dni'])
         print(json.loads(data)['textAnnotations'][0]['description'])
         print('----------------')
         return data
